@@ -1,1 +1,30 @@
 /* your code */
+  body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #f4f9ff;
+        }
+        thead {
+            background-color: #0077b6;
+            color: white;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #e0f0ff;
+        }
+        tbody tr:hover {
+            background-color: #cce7ff;
+        }
+        caption {
+            font-size: 24px;
+            margin: 10px;
+            font-weight: bold;
+        }
